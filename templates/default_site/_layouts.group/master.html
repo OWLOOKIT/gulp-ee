@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>{if layout:title}{layout:title} | {/if}{site_name}</title>
+		<script src="/html/assets/js/main.min.js" type="text/javascript"></script>
+		<script src="//use.typekit.net/qdv5sfw.js"></script>
+		<script>try{Typekit.load();}catch(e){}</script>
+		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="/html/assets/css/master.min.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+
+		{embed="_embeds/_navigation"}
+
+		{layout:contents}
+
+		{embed="_embeds/_footer"}
+
+	</body>
+</html>
